@@ -31,3 +31,14 @@
 
 **OSS Package, License, & Vuln. Result:**
 
+**Software Project License and Vulnerability Information Request:**
+
+**Software Project License and Vulnerability Information Response:**
+
+**Policy Information Request:**
+
+**Policy Information Response:**
+
+**New Policy:**
+
+**Modified Policy:**
