@@ -15,5 +15,9 @@
 
 **Scan for OSS Licenses:**
 
+**Query OSS Package License, Vuln. Information:**
 
+**Query Policy Database:**
+
+**Add or Modify Policy Database:**
 ##Data Flows
