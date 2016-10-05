@@ -21,3 +21,13 @@
 
 **Add or Modify Policy Database:**
 ##Data Flows
+**OSS Package:**
+
+**OSS Package License Result:**
+
+**OSS Package Name:**
+
+**Vulnerability Result:**
+
+**OSS Package, License, & Vuln. Result:**
+
