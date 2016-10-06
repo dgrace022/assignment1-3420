@@ -16,5 +16,31 @@
 **Trigger:** Manager makes a request for OSS package results.
 
 # Use Case 2
+**Title:**
+
+**Primary Actor:**
+
+**Stakeholders:**
+
+**Preconditions:**
+
+**Main Success Scenario:**
+
+**Failed End Conditions:**
+
+**Trigger:**
 
 # Use Case 3
+**Title:**
+
+**Primary Actor:**
+
+**Stakeholders:**
+
+**Preconditions:**
+
+**Main Success Scenario:**
+
+**Failed End Conditions:**
+
+**Trigger:**
