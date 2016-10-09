@@ -9,9 +9,9 @@
 
 **Policy Database:** A database that holds information about the policies on the use of open source software for the business that implements this system.
 ##Processes
-**Manage OSS Package for Vulnerability Checking:**
+**Manage OSS Package for Vulnerability Checking:** This process accepts an oss package from Manage OSS Package for Licenses Scanning, Vulnerability Checking process, extracts the name of the oss package, sends the name to the NIST Vulnerability Database, and takes the vulnerability results and sends it back to Manage OSS Package for Licenses Scanning, Vulnerability Checking process.
 
-**Manage OSS Package for Licenses Scanning, Vulnerability Checking:**
+**Manage OSS Package for Licenses Scanning, Vulnerability Checking:** This process accepts an oss package from a developer, and sends it to Manage OSS Package for Vulnerability Checking process and Scan for OSS Licenses process and accepts the results from both processes. It the sends these results to the OSS Results Database and back to the developer.
 
 **Scan for OSS Licenses:**
 
