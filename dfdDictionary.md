@@ -1,13 +1,13 @@
 ##Entities
-**Developer:** A person that submits an OSS package to be checked for licenses and vulnerabilities. The developer can also make a request for software project license and vulnerability information, as well as policy information.
+**Developer:** A person that submits an open source software package to be checked for licenses and vulnerabilities. The developer can also make a request for software project license and vulnerability information, as well as policy information.
 
 **Manager:** A person that like the developer, can make a request for software project license and vulnerability information and policy information. Unlike the developer, the manager is capable of adding new policies and modifying old policies. 
 ##Datastores
-**OSS Results Database:** This database stores all submitted oss packages, along with license and vulnerability information.
+**OSS Results Database:** A database that stores all submitted open source software packages, along with license and vulnerability information.
 
-**NIST Vulnerability Database:**
+**NIST Vulnerability Database:** A database that has information about all known vulnerabilities in submitted software. 
 
-**Policy Database:**
+**Policy Database:** A database that holds information about the policies on the use of open source software for the business that implements this system.
 ##Processes
 **Manage OSS Package for Vulnerability Checking:**
 
