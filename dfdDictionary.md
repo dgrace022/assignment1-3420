@@ -22,9 +22,9 @@
 **Add or Modify Policy Database:** This process accepts either a new policy or modified policy from the Manager, to which it then sends it to the Policy Database.
 
 ##Data Flows
-**OSS Package:**
+**OSS Package:** This is the open source software package the developer sends to the Manage OSS Package for Licenses Scanning, Vulnerability Checking process, so that it can be scanned for licenses and vulnerabilities.
 
-**OSS Package License Result:**
+**OSS Package License Result:** This is the data that comes back from the Scan for OSS Licenses process which contains information about all the licenses an oss package has.
 
 **OSS Package Name:**
 
