@@ -34,9 +34,9 @@
 
 **OSS Package, License, & Vuln. Result:** This data is a compiled of the oss package, the vulnerabilities it was found to have, and the licenses associated with the oss package. This gets sent to the OSS Results Database and to the developer.
 
-**Software Project License and Vulnerability Information Request:**
+**Software Project License and Vulnerability Information Request:** This is the request sent by either the developer or manager to recieve  license and vulnerability information about a software project.
 
-**Software Project License and Vulnerability Information Response:**
+**Software Project License and Vulnerability Information Response:** This is the response that is sent to either the developer or manager containing license and vulnerability information about a requested software project.
 
 **Policy Information Request:**
 
