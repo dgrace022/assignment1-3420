@@ -1,5 +1,5 @@
 ##Entities
-**Developer:**
+**Developer:** A person that submits an OSS package to be checked for licenses and vulnerabilities. The developer can also make a request for software project license and vulnerability information, as well as policy information.
 
 **Manager:**
 ##Datastores
