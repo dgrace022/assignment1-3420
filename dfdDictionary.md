@@ -13,13 +13,14 @@
 
 **Manage OSS Package for Licenses Scanning, Vulnerability Checking:** This process accepts an oss package from a developer, and sends it to Manage OSS Package for Vulnerability Checking process and Scan for OSS Licenses process and accepts the results from both processes. It the sends these results to the OSS Results Database and back to the developer.
 
-**Scan for OSS Licenses:**
+**Scan for OSS Licenses:** This process accepts an oss package from the Manage OSS Package for Licenses Scanning, Vulnerability Checking process and scans the package to find all the licensing in it. It then sends the oss package license results back to the Manage OSS Package for Licenses Scanning, Vulnerability Checking process.
 
-**Query OSS Package License, Vuln. Information:**
+**Query OSS Package License, Vuln. Information:** This process accepts a Software Project License and Vulnerability Information Request from either the developer or the manager, and sends it to the OSS Results Database, which it then recieves a Software Project License and Vulnerability Information Response and sends it back to the entity that made the request.
 
-**Query Policy Database:**
+**Query Policy Database:** This process accepts a Policy Information Request from either the developer or the manager, and sends it to the Policy Database, which it then recieves a Policy Information Response and sends it back to the entity that made the request.
 
-**Add or Modify Policy Database:**
+**Add or Modify Policy Database:** This process accepts either a new policy or modified policy from the Manager, to which it then sends it to the Policy Database.
+
 ##Data Flows
 **OSS Package:**
 
