@@ -3,7 +3,7 @@
 
 **Manager:** A person that like the developer, can make a request for software project license and vulnerability information and policy information. Unlike the developer, the manager is capable of adding new policies and modifying old policies. 
 ##Datastores
-**OSS Results Database:**
+**OSS Results Database:** This database stores all submitted oss packages, along with license and vulnerability information.
 
 **NIST Vulnerability Database:**
 
