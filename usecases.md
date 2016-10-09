@@ -16,19 +16,19 @@
 **Trigger:** Manager makes a request for software project license and vulnerability information.
 
 # Use Case 2
-**Title:**
+**Title:** Add a New Policy
 
-**Primary Actor:**
+**Primary Actor:** Manager
 
-**Stakeholders:**
+**Stakeholders:** Manager, Developer
 
-**Preconditions:**
+**Preconditions:** Policy Database is able to be accessed.
 
-**Main Success Scenario:**
+**Main Success Scenario:** A new policy is added to Policy Database.
 
-**Failed End Conditions:**
+**Failed End Conditions:** The Policy Database does not receive a new policy, and thus is not added.
 
-**Trigger:**
+**Trigger:** Manager submits a new policy.
 
 # Use Case 3
 **Title:**
