@@ -17,9 +17,9 @@
 
 **Scan for OSS Licenses:** This process accepts an oss package from the Manage OSS Package for Licenses Scanning, Vulnerability Checking process and scans the package to find all the licensing in it. It then sends the oss package license results back to the Manage OSS Package for Licenses Scanning, Vulnerability Checking process.
 
-**Query OSS Package License, Vuln. Information:** This process accepts a Software Project License and Vulnerability Information Request from either the developer or the manager, and sends it to the OSS Results Database, which it then recieves a Software Project License and Vulnerability Information Response and sends it back to the entity that made the request.
+**Query OSS Package License, Vuln. Information:** This process accepts a Software Project License and Vulnerability Information Request from either the developer or the manager, and sends it to the OSS Results Database, which it then receives a Software Project License and Vulnerability Information Response and sends it back to the entity that made the request.
 
-**Query Policy Database:** This process accepts a Policy Information Request from either the developer or the manager, and sends it to the Policy Database, which it then recieves a Policy Information Response and sends it back to the entity that made the request.
+**Query Policy Database:** This process accepts a Policy Information Request from either the developer or the manager, and sends it to the Policy Database, which it then receives a Policy Information Response and sends it back to the entity that made the request.
 
 **Add or Modify Policy Database:** This process accepts either a new policy or modified policy from the Manager, to which it then sends it to the Policy Database.
 
@@ -28,20 +28,20 @@
 
 **OSS Package License Result:** This is the data that comes back from the Scan for OSS Licenses process which contains information about all the licenses an oss package has.
 
-**OSS Package Name:** This data contains the name of the oss package that the Manage OSS Package for Vulnerability Checking process creates after recieving the oss package, which is then sent to the NIST Vulnerability Database.
+**OSS Package Name:** This data contains the name of the oss package that the Manage OSS Package for Vulnerability Checking process creates after receiving the oss package, which is then sent to the NIST Vulnerability Database.
 
-**Vulnerability Result:** This data is the results that NIST Vulnerability Database came up with after recieving the oss package name.
+**Vulnerability Result:** This data is the results that NIST Vulnerability Database came up with after receiving the oss package name.
 
 **OSS Package, License, & Vuln. Result:** This data is a compiled of the oss package, the vulnerabilities it was found to have, and the licenses associated with the oss package. This gets sent to the OSS Results Database and to the developer.
 
-**Software Project License and Vulnerability Information Request:** This is the request sent by either the developer or manager to recieve  license and vulnerability information about a software project.
+**Software Project License and Vulnerability Information Request:** This is the request sent by either the developer or manager to receive  license and vulnerability information about a software project.
 
 **Software Project License and Vulnerability Information Response:** This is the response that is sent to either the developer or manager containing license and vulnerability information about a requested software project.
 
-**Policy Information Request:**
+**Policy Information Request:** This is the request sent by either the developer or manager to receive policy information.
 
-**Policy Information Response:**
+**Policy Information Response:** This is the response that is sent back to either the developer or manager to receive policy information.
 
-**New Policy:**
+**New Policy:** This is a new policy that is submitted by the manager to be added to the Policy Database.
 
-**Modified Policy:**
+**Modified Policy:** This is a modified policy that is submitted by the manager to be added to the Policy Database.
