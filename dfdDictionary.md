@@ -2,12 +2,14 @@
 **Developer:** A person that submits an open source software package to be checked for licenses and vulnerabilities. The developer can also make a request for software project license and vulnerability information, as well as policy information.
 
 **Manager:** A person that like the developer, can make a request for software project license and vulnerability information and policy information. Unlike the developer, the manager is capable of adding new policies and modifying old policies. 
+
 ##Datastores
 **OSS Results Database:** A database that stores all submitted open source software packages, along with license and vulnerability information.
 
 **NIST Vulnerability Database:** A database that has information about all known vulnerabilities in submitted software. 
 
 **Policy Database:** A database that holds information about the policies on the use of open source software for the business that implements this system.
+
 ##Processes
 **Manage OSS Package for Vulnerability Checking:** This process accepts an oss package from Manage OSS Package for Licenses Scanning, Vulnerability Checking process, extracts the name of the oss package, sends the name to the NIST Vulnerability Database, and takes the vulnerability results and sends it back to Manage OSS Package for Licenses Scanning, Vulnerability Checking process.
 
@@ -26,11 +28,11 @@
 
 **OSS Package License Result:** This is the data that comes back from the Scan for OSS Licenses process which contains information about all the licenses an oss package has.
 
-**OSS Package Name:**
+**OSS Package Name:** This data contains the name of the oss package that the Manage OSS Package for Vulnerability Checking process creates after recieving the oss package, which is then sent to the NIST Vulnerability Database.
 
-**Vulnerability Result:**
+**Vulnerability Result:** This data is the results that NIST Vulnerability Database came up with after recieving the oss package name.
 
-**OSS Package, License, & Vuln. Result:**
+**OSS Package, License, & Vuln. Result:** This data is a compiled of the oss package, the vulnerabilities it was found to have, and the licenses associated with the oss package. This gets sent to the OSS Results Database and to the developer.
 
 **Software Project License and Vulnerability Information Request:**
 
