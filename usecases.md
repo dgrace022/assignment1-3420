@@ -1,19 +1,19 @@
 # Use Case 1
-**Title:** Determine License and Vulnerabilities Information
+**Title:** Determine Software Project License and Vulnerability Information
 
 **Primary Actor:** Manager
 
-**Goal in Context:** Manage is to retrieve information OSS package results whcih include licensing and vulnerabilities.
+**Goal in Context:** Manage is to retrieve software project license and vulnerability information.
 
 **Stakeholders:** Manager, Developer
 
-**Preconditions:** OSS Results Database is populated. NIST database is up-to-date with current known vulnerabilities.
+**Preconditions:** OSS Results Database is populated. NIST Vulnerability Database is up-to-date with current known vulnerabilities.
 
-**Main Success Scenario:** Manager recieves accurate information about the licensing and vulnerabilites of OSS packages.
+**Main Success Scenario:** Manager receives accurate software project license and vulnerability information.
 
-**Failed End Conditions:** Manager recieves inaccurate information about the licensing and vulnerabilites of OSS packages. Manager may not recieve any results at all.
+**Failed End Conditions:** Manager recieves inaccurate software project license and vulnerability information. Manager does not recieve any information.
 
-**Trigger:** Manager makes a request for OSS package results.
+**Trigger:** Manager makes a request for software project license and vulnerability information.
 
 # Use Case 2
 **Title:**
