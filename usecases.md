@@ -31,16 +31,16 @@
 **Trigger:** Manager submits a new policy.
 
 # Use Case 3
-**Title:**
+**Title:** Determine Policy Information
 
-**Primary Actor:**
+**Primary Actor:** Developer
 
-**Stakeholders:**
+**Stakeholders:** Developer, Manager
 
-**Preconditions:**
+**Preconditions:** The Policy Database is populated.
 
-**Main Success Scenario:**
+**Main Success Scenario:** The developer receives accurate policy information.
 
-**Failed End Conditions:**
+**Failed End Conditions:** The developer receives inaccurate policy information. The developer does not receive policy information at all.
 
-**Trigger:**
+**Trigger:** Developer makes a request for policy information.
